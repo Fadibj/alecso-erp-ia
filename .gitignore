@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Modeles entraines : binaires regenerables en quelques secondes
+modele/*.joblib
+
+# Donnees de l'organisation : ne doivent pas quitter le systeme
+data/depenses.csv
+data/expenses.csv
+data/*.xlsx
+
+# Environnement local
+.env
+.env.local
+*.log
+
+# Editeurs
+.idea/
+.vscode/
+.DS_Store
