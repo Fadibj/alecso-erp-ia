@@ -1,0 +1,59 @@
+{
+  "n_dossiers": 372,
+  "n_instruits": 372,
+  "n_apprentissage": 303,
+  "n_test": 69,
+  "annee_test": 2024,
+  "accord": {
+    "algorithme": "Régression logistique",
+    "validation_croisee": {
+      "Régression logistique": 0.7981,
+      "Forêt aléatoire": 0.7766,
+      "Gradient boosting": 0.7226,
+      "Hist gradient boosting": 0.7393
+    },
+    "roc_auc_test": 0.7474,
+    "brier_test": 0.1965,
+    "taux_accord_historique": 0.586
+  },
+  "montant": {
+    "algorithme": "Régression ridge",
+    "validation_croisee": {
+      "Régression ridge": 0.381,
+      "Forêt aléatoire": 0.4,
+      "Gradient boosting": 0.3143
+    },
+    "r2_test": 0.4277,
+    "erreur_absolue_test": 0.0594
+  },
+  "reperes": {
+    "taux_par_type": {
+      "ASSOCIATION": 0.5591,
+      "INDIVIDUAL": 0.2273,
+      "INSTITUTION": 0.6538,
+      "MEMBER_STATE": 0.6835
+    },
+    "taux_par_thematique": {
+      "CULTURE": 0.4894,
+      "EDUCATION": 0.7317,
+      "FORMATION": 0.5926,
+      "JEUNESSE": 0.4222,
+      "NUMERIQUE": 0.6341,
+      "PATRIMOINE": 0.7632,
+      "SCIENCES": 0.6522,
+      "TRADUCTION": 0.4833
+    },
+    "ratio_median_par_type": {
+      "ASSOCIATION": 0.851,
+      "INDIVIDUAL": 0.8027,
+      "INSTITUTION": 0.8685,
+      "MEMBER_STATE": 0.9545
+    },
+    "medianes_demande": {
+      "ASSOCIATION": 22500.0,
+      "INDIVIDUAL": 12000.0,
+      "INSTITUTION": 41000.0,
+      "MEMBER_STATE": 55500.0
+    }
+  }
+}

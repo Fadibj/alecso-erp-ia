@@ -1,0 +1,19 @@
+{
+  "algorithme": "Isolation Forest",
+  "apprentissage": "non supervise",
+  "taille_historique": 25,
+  "part_anormale_attendue": 0.12,
+  "nombre_signalees": 3,
+  "taux_signalement": 0.12,
+  "seuil_score": -0.5809,
+  "variables": [
+    "log_montant",
+    "ecart_categorie",
+    "ecart_departement",
+    "mois",
+    "fin_exercice",
+    "fournisseur_rare"
+  ],
+  "score_min": -0.6153,
+  "score_max": -0.3898
+}
