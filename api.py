@@ -25,6 +25,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 import anomalies
+from subventions_ia import routeur as routeur_subventions
 
 RACINE = Path(__file__).parent
 MODELE = RACINE / "modele"
@@ -56,6 +57,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 app.include_router(anomalies.routeur)
+app.include_router(routeur_subventions)
 
 
 # ─────────────────────────────────────────────── contrats d'echange
