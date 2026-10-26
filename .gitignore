@@ -14,6 +14,12 @@ data/depenses.csv
 data/expenses.csv
 data/*.xlsx
 
+# Statistiques derivees des depenses reelles : meme regle que le CSV.
+# Ce fichier contient la liste nominative des fournisseurs de l'organisation
+# et les medianes de depense par service — des donnees d'affaires, pas des
+# mesures de performance.
+modele/reference_depenses.json
+
 # Environnement local
 .env
 .env.local
